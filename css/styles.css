@@ -1,0 +1,33 @@
+.body {
+    background-color: #1aabf3;
+    font-family: Arial;
+}
+
+.h1 {
+    text-align: center;
+    color: #333;
+}
+
+.h2 {
+    text-align: center;
+    color: #333;
+}
+
+.button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #333;
+  color: white;
+  border: 2px solid #333;
+  border-radius: 4px;
+  font-size: 20px;
+  }
+  
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.findslope {
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
