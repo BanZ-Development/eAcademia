@@ -36,4 +36,30 @@ function pointToIntercept()
     return b;
 }
 
+function interceptToStandard()
+{
+    let slope = value('q4slope');
+    let b = value('q4b');
+    let y = value('q4y');
+    let equation;
+    slope = slope*-1;
+    if(slope.toString().includes("."))
+    {
+        let multiplier = 1/slope;
+        slope = slope*multiplier;
+        y = y*multiplier;
+        b = b*multiplier;
+
+    }
+    if(slope < 0)
+    {
+        slope*=-1;
+        y*=-1;
+        b*=-1;
+    }
+    equation = `${slope}x + ${y}y = ${b}`;
+    console.log(equation);
+    return equation;
+}
+
 
