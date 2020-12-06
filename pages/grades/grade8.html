@@ -2,11 +2,23 @@
 <html>
     <head>
         <title>Grade 8 - eAcademia</title>
-        <link rel="stylesheet" href="css/styles.css">
-        <script src="main.js"></script>
-        <script type="text/javascript" src="grades.json"></script>
+        <link rel="stylesheet" href="../../css/styles.css">
+        <script src="../../main.js"></script>
     </head>
-    <body onload="loadJSON('grade8')">
-        
+    <body>
+        <div id="findSlope" class="findslope">
+            <h2 class="h2">Find Slope With 2 Points</h2>
+            <h3 class="text">x1</h3>
+            <input type="text" class="input" id="q1x1">
+            <h3 class="text">y1</h3>
+            <input class="input" type="text" id="q1y1">
+            <h3 class="text">x2</h3>
+            <input class="input" type="text" id="q1x2">
+            <h3 class="text">y2</h3>
+            <input class="input" type="text" id="q1y2">
+            <br>
+            <br>
+            <button class="button" onclick="findSlope()">Enter</button>
+        </div>
     </body>
 </html>

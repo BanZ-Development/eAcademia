@@ -2,11 +2,49 @@
 <html>
     <head>
         <title>Grade 9 - eAcademia</title>
-        <link rel="stylesheet" href="css/styles.css">
-        <script src="main.js"></script>
-        <script type="text/javascript" src="grades.json"></script>
+        <link rel="stylesheet" href="../../css/styles.css">
+        <script src="../../main.js"></script>
     </head>
-    <body onload="loadJSON('grade9')">
-        
+    <body>
+        <div id="toPointSlope" class="findslope">
+            <h2 class="h2">Point and Slope to Point Slope Form</h2>
+            <h3 class="text">Slope</h3>
+            <input class="input" type="text" id="q2slope">
+            <h3 class="text">x</h3>
+            <input class="input" type="text" id="q2x">
+            <h3 class="text">y</h3>
+            <input class="input" type="text" id="q2y">
+            <br>
+            <br>
+            <button class="button" onclick="toPointSlope()">Enter</button>
+        </div>
+        <br>
+        <div id="pointToIntercept" class="findslope">
+            <h2 class="h2">Find Y-Intercept With Slope and a Point</h2>
+            <h3 class="text">Slope</h3>
+            <input class="input" type="text" id="q3slope">
+            <h3 class="text">x</h3>
+            <input class="input" type="text" id="q3x">
+            <h3 class="text">y</h3>
+            <input class="input" type="text" id="q3y">
+            <br>
+            <br>
+            <button class="button" onclick="pointToIntercept()">Enter</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="interceptToStandard" class="findslope">
+            <h2 class="h2">Convert an Equation in Slope Intercept Form to Standard Form</h2>
+            <h3 class="text">Slope</h3>
+            <input class="input" type="text" id="q4slope">
+            <h3 class="text">Y Intercept</h3>
+            <input class="input" type="text" id="q4b">
+            <h3 class="text">Y Value</h3>
+            <input class="input" type="text" id="q4y">
+            <br>
+            <br>
+            <button onclick="interceptToStandard()" class="button">Enter</button>
+        </div>
     </body>
 </html>
