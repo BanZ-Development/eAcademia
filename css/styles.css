@@ -31,6 +31,9 @@
   .button:hover {
     background-color: rgba(0,136,169,0.8);
     border: white;
+}
+
+.button:onclick {
     font-size: 15px;
 }
   
@@ -56,4 +59,9 @@
     font-family: "Raleway";
     text-align: center;
     left: 50%;
+    transition: all 0.3s ease 0s;
+}
+
+.input:onclick {
+    border: 2px solid black;
 }
