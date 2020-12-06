@@ -1,0 +1,11 @@
+{
+    "grade8": [
+        "findSlope"
+    ],
+    
+    "grade9": [
+        "toPointSlope",
+        "pointToIntercept",
+        "interceptToStandard"
+    ]
+}
