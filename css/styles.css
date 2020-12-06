@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 .body {
     background-color: #1aabf3;
-    font-family: Arial;
+    font-family: Raleway;
 }
 
 .h1 {
@@ -45,3 +46,4 @@
     outline: none;
     font-size: 20px;
 }
+/* Navbar /*
