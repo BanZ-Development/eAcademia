@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 .body {
-    background-color: #1aabf3;
+    background-color: #333;
     font-family: "Raleway", sans-serif;
 }
 
@@ -18,7 +18,7 @@
 
 .button {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background-color: #1aabf3;     
+    background-color: #1aabf3; 
   color: white;
   border: white;
   border-radius: 4px;
