@@ -4,12 +4,6 @@ function value(str)
     return get;
 }
 
-function loadJSON(par)
-{
-    var grades = JSON.parse(par);
-    console.log(grades);
-}
-
 function findSlope()
 {
     let x1 = value('q1x1');
