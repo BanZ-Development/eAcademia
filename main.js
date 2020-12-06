@@ -8,7 +8,6 @@ function loadJSON(par)
 {
     var grades = JSON.parse(par);
     console.log(grades);
-    console.log(this.URL);
 }
 
 function findSlope()
