@@ -46,26 +46,3 @@
     outline: none;
     font-size: 20px;
 }
-/* Navbar */
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-}
-
-li, a, button {
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
-    font-size: 16;
-    color: white;
-    text-decoration: none;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-}
