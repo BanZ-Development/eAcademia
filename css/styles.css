@@ -18,11 +18,7 @@
 
 .button {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background-color: #333;
-  margin: 0;
-  position: absolute;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);  
+    background-color: #333; 
   color: white;
   border: none;
   border-radius: 4px;
