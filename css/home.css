@@ -88,4 +88,9 @@ button:hover {
 .div {
     border: 2px solid grey;
     border-radius: 4px;
+    width: 30px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
 }
