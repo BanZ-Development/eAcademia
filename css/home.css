@@ -84,3 +84,8 @@ button:hover {
     left: 50%;
     transition: all 0.3s ease 0s;
 }
+
+div {
+    border: 2px solid grey;
+    border-radius: 4px;
+}
