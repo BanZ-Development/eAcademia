@@ -99,9 +99,9 @@ button:hover {
 .img {
     border-radius: 4px;
     display: block;
-    width: 218px;
+    width: 225px;
     height: 115px;
-    margin-left: auto;
+    margin-left: 38px;
     margin-right: auto;
     text-align: center;
     align-content: center;
