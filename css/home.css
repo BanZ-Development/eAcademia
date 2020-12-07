@@ -101,5 +101,8 @@ button:hover {
     display: block;
     width: 218px;
     height: 115px;
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-content: center;
 }
