@@ -114,6 +114,11 @@ height: 330px;
 border-radius: 2px;
 border: solid 2px #1aabf3;
 align-content: center;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .calculator {
@@ -122,6 +127,11 @@ height: 330px;
 border-radius: 2px;
 border: solid 2px #1aabf3;
 align-content: center;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .done {
