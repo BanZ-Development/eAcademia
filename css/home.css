@@ -109,8 +109,25 @@ button:hover {
 }
 
 .how-to {
-width: 300px;
-height: 200px;
+width: 500px;
+height: 330px;
 border-radius: 2px;
 border: solid 2px #1aabf3;
+align-content: center;
+}
+
+.calculator {
+width: 300px;
+height: 330px;
+border-radius: 2px;
+border: solid 2px #1aabf3;
+align-content: center;
+}
+
+.done {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px #000;
+    font-family: "Raleway";
+    margin-bottom: 25px;   
 }
