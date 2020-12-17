@@ -2,6 +2,8 @@ function search()
 {
     let search = document.getElementById("search").innerHTML;
 
-    let chars = search.split(/(?!$)/u);
-    console.log(chars);
+    for(i=0;i++;i<search.length)
+    {
+        console.log(search[i]);
+    }
 }
