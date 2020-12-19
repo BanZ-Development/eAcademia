@@ -83,7 +83,7 @@ button:hover {
     text-align: center;
     left: 50%;
     transition: all 0.3s ease 0s;
-    margin-left: 15px;
+    margin-right: 15px;
 }
 
 ::placeholder {
